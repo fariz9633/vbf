@@ -1,0 +1,49 @@
+[01-Oct-2022 16:50:49 Asia/Kolkata] PHP Fatal error:  Cannot use DB as DB because the name is already in use in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Api/ApiController.php on line 21
+[11-Oct-2022 08:30:29 Asia/Kolkata] PHP Fatal error:  Cannot use Response as Response because the name is already in use in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Api/ApiController.php on line 23
+[11-Oct-2022 09:46:25 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Session as Session because the name is already in use in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Api/ApiController.php on line 31
+[11-Oct-2022 16:54:29 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343375872 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 16:54:55 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343347200 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 16:55:02 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343371776 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 17:27:04 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343416832 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 17:28:50 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343425024 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 17:37:24 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343388160 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 17:39:25 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343416832 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 17:45:11 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343392256 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 17:47:50 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343404544 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 17:48:28 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343404544 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 17:48:58 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343404544 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 17:50:00 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343404544 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[11-Oct-2022 17:50:35 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 343379968 bytes) in /home/k1sluq159shx/public_html/bcare/app/Http/Controllers/Home.php on line 28
+[12-Oct-2022 12:33:08 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/k1sluq159shx/public_html/bcare/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/k1sluq159shx/public_html/bcare/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/k1sluq159shx/public_html/bcare/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/k1sluq159shx/public_html/bcare/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/k1sluq159shx/public_html/bcare/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/k1sluq159shx/public_html/bcare/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/k1sluq159shx/public_html/bcare/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render()
+#6 /home/k1sluq159shx/public_html/bcare/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException()
+#7 /home/k1sluq159shx/public_html/bcare/public/index.php(52): Illuminate\Foundation\Http\Kernel->handle()
+#8 /home/k1sluq159shx/public_html/bcare/index.php(21): require_once('/home/k1sluq159...')
+#9 {main}
+  thrown in /home/k1sluq159shx/public_html/bcare/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Oct-2022 13:52:54 UTC] PHP Warning:  require(/home/k1sluq159shx/public_html/bcare/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/k1sluq159shx/public_html/bcare/public/index.php on line 34
+[13-Oct-2022 13:52:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/k1sluq159shx/public_html/bcare/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/k1sluq159shx/public_html/bcare/public/index.php:34
+Stack trace:
+#0 /home/k1sluq159shx/public_html/bcare/index.php(21): require_once()
+#1 {main}
+  thrown in /home/k1sluq159shx/public_html/bcare/public/index.php on line 34
+[23-Dec-2022 14:19:12 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 400572416 bytes) in /home/k1sluq159shx/public_html/VBF/storage/framework/views/0d5e03cc54e6d3f72bb2f81df1db3b128c64d400.php on line 151
+[18-Jan-2023 17:25:43 Asia/Kolkata] PHP Fatal error:  Cannot use [] for reading in /home/k1sluq159shx/public_html/VBF/app/Http/Controllers/Admin/DepartmentmemController.php on line 51
+[18-Jan-2023 17:27:38 Asia/Kolkata] PHP Fatal error:  Cannot use [] for reading in /home/k1sluq159shx/public_html/VBF/app/Http/Controllers/Admin/DepartmentmemController.php on line 51
+[24-Jan-2023 16:00:39 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\AjaxController::chapmemberlist() in /home/po7bv51f7fk6/public_html/viprabusinessforum.org/app/Http/Controllers/AjaxController.php on line 324
+[24-Jan-2023 16:00:56 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\AjaxController::chapmemberlist() in /home/po7bv51f7fk6/public_html/viprabusinessforum.org/app/Http/Controllers/AjaxController.php on line 324
+[30-Mar-2023 00:17:32 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Auth as Auth because the name is already in use in /home/po7bv51f7fk6/public_html/viprabusinessforum.org/app/Http/Controllers/OtpController.php on line 27
+[30-Mar-2023 01:08:13 Asia/Kolkata] PHP Fatal error:  Trait 'Laravel\Cashier\Billable' not found in /home/po7bv51f7fk6/public_html/viprabusinessforum.org/app/Models/Customerotp.php on line 10
+[03-Apr-2023 20:10:31 Asia/Kolkata] PHP Notice:  Undefined variable: send in /home/po7bv51f7fk6/public_html/viprabusinessforum.org/app/Http/Controllers/OtpController.php on line 61
+[03-Apr-2023 20:10:46 Asia/Kolkata] PHP Notice:  Undefined variable: send in /home/po7bv51f7fk6/public_html/viprabusinessforum.org/app/Http/Controllers/OtpController.php on line 61
+[09-Apr-2023 20:53:41 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\otpC::generateold6() in /home/po7bv51f7fk6/public_html/viprabusinessforum.org/app/Http/Controllers/otpC.php on line 57
+[10-Apr-2023 12:14:35 Asia/Kolkata] PHP Fatal error:  Cannot use Craftsys\Msg91\Client as Client because the name is already in use in /home/po7bv51f7fk6/public_html/viprabusinessforum.org/app/Http/Controllers/otpC.php on line 41
+[10-Apr-2023 12:49:57 Asia/Kolkata] PHP Fatal error:  Trait 'Laravel\Cashier\Billable' not found in /home/po7bv51f7fk6/public_html/viprabusinessforum.org/app/Models/Customerotp.php on line 10
+[09-May-2023 02:54:03 Asia/Kolkata] PHP Fatal error:  Trait 'Laravel\Cashier\Billable' not found in /home/po7bv51f7fk6/public_html/viprabusinessforum.org/app/Models/Customerotp.php on line 10
+[15-Jun-2023 14:07:22 Asia/Kolkata] PHP Fatal error:  Cannot use empty array elements in arrays in /home/wb1sbr5dgs3y/public_html/vbf_test/app/Exports/MemberExport.php on line 60
